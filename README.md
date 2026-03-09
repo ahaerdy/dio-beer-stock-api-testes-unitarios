@@ -152,14 +152,14 @@ Base URL: `http://localhost:8080/api/v1/beers`
 A pirâmide de testes define a proporção ideal de cada tipo de teste:
 
 ```
-        /\
-       /  \
-      / E2E\      ← Poucos: lentos, caros, frágeis
-     /──────\
-    / Integ. \    ← Médio: validam integração entre módulos
-   /──────────\
-  /  Unitários \  ← Muitos: rápidos, baratos, isolados
- /──────────────\
+                 /\
+                /  \
+               / E2E \
+              /------\        ← Poucos: lentos, caros, frágeis
+             / Integ. \
+            /--------\        ← Médio: validam integração entre módulos
+           /Unitários\
+          /----------\        ← Muitos: rápidos, baratos, isolados
 ```
 
 **Testes unitários** são a base da pirâmide — devem ser rápidos e testar **uma unidade de código de forma isolada**, sem dependências externas reais (banco de dados, rede, etc.). Para isso usamos **mocks**.
