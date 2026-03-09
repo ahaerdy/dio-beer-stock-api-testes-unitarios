@@ -1,11 +1,11 @@
-# 🍺 Beer Stock API — Gerenciamento de Estoque de Cerveja
+# Beer Stock API — Gerenciamento de Estoque de Cerveja
 
 > Projeto desenvolvido durante a **Live Coding da Digital Innovation One (DIO)**
 > Tema: *Desenvolvimento de Testes Unitários para validar uma API REST de Gerenciamento de Estoques de Cerveja*
 
 ---
 
-## 📋 Índice
+## Índice
 
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Arquitetura e Estrutura](#arquitetura-e-estrutura)
@@ -25,7 +25,7 @@
 
 ---
 
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
 Esta API REST foi construída com **Spring Boot** para gerenciar o estoque de cervejas. O foco principal do projeto é a **escrita de testes unitários** de qualidade, cobrindo as camadas de *Controller* e *Service* da aplicação.
 
@@ -37,7 +37,7 @@ Durante a aula, foram abordados:
 
 ---
 
-## 🏗️ Arquitetura e Estrutura
+## Arquitetura e Estrutura
 
 O projeto segue a arquitetura em camadas padrão do Spring Boot:
 
@@ -64,7 +64,7 @@ O padrão **DTO (Data Transfer Object)** é utilizado para desacoplar a entidade
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 | Tecnologia | Versão | Papel no Projeto |
 |---|---|---|
@@ -82,7 +82,7 @@ O padrão **DTO (Data Transfer Object)** é utilizado para desacoplar a entidade
 
 ---
 
-## ✅ Pré-requisitos
+## Pré-requisitos
 
 - **Java 14** ou superior
 - **Maven 3.6.3** ou superior
@@ -93,7 +93,7 @@ O padrão **DTO (Data Transfer Object)** é utilizado para desacoplar a entidade
 
 ---
 
-## ▶️ Como Executar
+## ▶Como Executar
 
 ### Clonar o repositório
 
@@ -118,7 +118,7 @@ mvn clean test
 
 ---
 
-## 🌐 Endpoints da API
+## Endpoints da API
 
 Base URL: `http://localhost:8080/api/v1/beers`
 
@@ -145,7 +145,7 @@ Base URL: `http://localhost:8080/api/v1/beers`
 
 ---
 
-## 🧪 Testes Unitários
+## Testes Unitários
 
 ### Pirâmide de Testes
 
@@ -337,7 +337,7 @@ void whenIncrementIsGreaterThanMaxThenThrowException() throws Exception {
 
 ---
 
-## 📁 Estrutura dos Pacotes
+## Estrutura dos Pacotes
 
 ```
 src/
@@ -374,7 +374,7 @@ src/
 
 ---
 
-## 📚 Explicação Didática das Classes
+## Explicação Didática das Classes
 
 ### `Beer.java` (Entidade)
 Representa a tabela `BEER` no banco de dados. Anotações JPA definem o mapeamento objeto-relacional.
@@ -539,7 +539,7 @@ public class BeerDTOBuilder {
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 Projeto baseado no conteúdo da **Digital Innovation One (DIO)**
 Professor: Rodrigo Peleias
