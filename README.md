@@ -42,9 +42,9 @@ Durante a aula, foram abordados:
 O projeto segue a arquitetura em camadas padrão do Spring Boot:
 
 ```
-Request HTTP
-     │
-     ▼
+  Request HTTP
+       │
+       ▼
 ┌─────────────┐
 │  Controller │  ← Recebe requisições, valida entrada, retorna respostas HTTP
 └──────┬──────┘
