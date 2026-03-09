@@ -46,7 +46,7 @@ Request HTTP
      │
      ▼
 ┌─────────────┐
-│  Controller  │  ← Recebe requisições, valida entrada, retorna respostas HTTP
+│  Controller │  ← Recebe requisições, valida entrada, retorna respostas HTTP
 └──────┬──────┘
        │
        ▼
@@ -154,12 +154,12 @@ A pirâmide de testes define a proporção ideal de cada tipo de teste:
 ```
         /\
        /  \
-      / E2E\       ← Poucos: lentos, caros, frágeis
+      / E2E\      ← Poucos: lentos, caros, frágeis
      /──────\
-    /  Integ. \    ← Médio: validam integração entre módulos
-   /────────────\
-  /   Unitários  \ ← Muitos: rápidos, baratos, isolados
- /────────────────\
+    / Integ. \    ← Médio: validam integração entre módulos
+   /──────────\
+  /  Unitários \  ← Muitos: rápidos, baratos, isolados
+ /──────────────\
 ```
 
 **Testes unitários** são a base da pirâmide — devem ser rápidos e testar **uma unidade de código de forma isolada**, sem dependências externas reais (banco de dados, rede, etc.). Para isso usamos **mocks**.
@@ -525,7 +525,7 @@ public class BeerDTOBuilder {
 
 ---
 
-## 🔗 Referências
+## Referências
 
 - [SDKMan! — Gerenciamento do Java e Maven](https://sdkman.io/)
 - [Site oficial do Spring Boot](https://spring.io/)
@@ -542,4 +542,4 @@ public class BeerDTOBuilder {
 
 Projeto baseado no conteúdo da **Digital Innovation One (DIO)**
 Professor: Rodrigo Peleias
-Fork e documentação por: **[SEU NOME AQUI]**
+Fork e documentação por: **Arthur Haerdy**
