@@ -155,12 +155,12 @@ A pirâmide de testes define a proporção ideal de cada tipo de teste:
                   A
                  / \
                 /   \
-               / E2E \
-              /-------\        ← Poucos: lentos, caros, frágeis
-             /  Integ. \
-            /-----------\      ← Médio: validam integração entre módulos
-           /  Unitários  \
-          /---------------\    ← Muitos: rápidos, baratos, isolados
+               / E2E \         ← Poucos: lentos, caros, frágeis
+              /-------\        
+             /  Integ. \       ← Médio: validam integração entre módulos
+            /-----------\      
+           /  Unitários  \     ← Muitos: rápidos, baratos, isolados
+          /---------------\    
 ```
 
 **Testes unitários** são a base da pirâmide — devem ser rápidos e testar **uma unidade de código de forma isolada**, sem dependências externas reais (banco de dados, rede, etc.). Para isso usamos **mocks**.
