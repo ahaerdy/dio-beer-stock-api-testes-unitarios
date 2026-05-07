@@ -536,11 +536,4 @@ public class BeerDTOBuilder {
 - [Testes com Spring Boot — Baeldung](https://www.baeldung.com/spring-boot-testing)
 - [Padrão arquitetural REST](https://restfulapi.net/)
 - [Pirâmide de Testes — Martin Fowler](https://martinfowler.com/articles/practical-test-pyramid.html)
-
----
-
-## Autor
-
-Projeto baseado no conteúdo da **Digital Innovation One (DIO)**
-Professor: Rodrigo Peleias
-Fork e documentação por: **Arthur Haerdy**
+- [Repositório de Estudos — Bootcamp TQI Fullstack Developer](https://github.com/ahaerdy/DIO-learning/tree/main/TQI%20Fullstack%20Developer)
